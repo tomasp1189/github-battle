@@ -8,10 +8,14 @@ require('./index.css');
 
 class App extends React.Component {
     render() {
-        return (
+        return ( 
             <div>
-                Hello World!
+                Hello React training.
             </div>
         )
     }
 }
+
+ReactDOM.render(
+    <App />, document.getElementById('app')
+);
