@@ -11,7 +11,7 @@ class Popular extends React.Component{
     updateLanguage(lang){
         this.setState(function() {
             return {
-                selectedLanguage: lang
+                selectedLanguage: lang 
             }
         });
     }
