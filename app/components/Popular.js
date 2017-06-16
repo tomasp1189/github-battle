@@ -1,6 +1,6 @@
-var React = require('react'); 
-var PropTypes = require('prop-types');
-var api = require('../utils/api');
+import React from 'react';
+import PropTypes from 'prop-types';
+import api from '../utils/api';
 
 function SelectLanguage(props) {
     var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
