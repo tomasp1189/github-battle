@@ -5,11 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-<<<<<<< HEAD
-    "build": "NODE_ENV='production' webpack -p"
-=======
+    "build": "NODE_ENV='production' webpack -p",
     "compile": "webpack"
->>>>>>> b53e230f9fed99c52528e954d132cdfda1abdce5
   },
   "repository": {
     "type": "git",
