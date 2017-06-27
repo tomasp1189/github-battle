@@ -4,7 +4,8 @@
   "description": "github battle app from the React Fundamentals course at reacttraining.com",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "NODE_ENV='production' webpack -p"
   },
   "repository": {
     "type": "git",
